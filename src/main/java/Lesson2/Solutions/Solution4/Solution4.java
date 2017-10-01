@@ -43,20 +43,6 @@ public class Solution4 {
     }
 
 
-    /*
-    public void getUniqElem(String bigStr){                   //Выпиливаем дублирующие элемнты
-        char [] newArr = bigStr.toCharArray();
-        char [] sortedArr = new char[20];
-        sortedArr[0] = newArr[0];
-        int j = 0;
-        for (int i = 1; i < newArr.length; i ++){
-            if (newArr[i] != newArr[i-1]){
-                sortedArr[j+1] = newArr[i];
-            }
-        }
-    }
-*/
-
     public static void main(String[] args) {
         Solution4 example = new Solution4();
         example.getSortArrFronStr();
